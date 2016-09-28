@@ -1,0 +1,39 @@
+*{margin: 0px ;padding: 0px;}
+.wrapper{width: 1349px ;height: 2000px;background:#909090;
+}
+.head{background: #000; width: 1349px;height: 246px}
+.top_link{background: #191919;width: 1349px;height: 40px}
+.top_hotline{width: 418px  ;line-height: 22px}
+.container{width: auto;height: 162px}
+.menu_dropit{line-height: 1px;}
+.head img{text-align: center;width: auto}
+.main_menu{background: #191919}
+.main_menu ul li a {text-decoration: none;color: #fff;font-weight: 700}
+.main_menu>ul>li {list-style: none;float: left; padding: 13px 25px;position: relative; font-size: 14px}
+.main_menu ul li ul li{list-style: none;transition: all 2s;border-bottom: 1px solid #191919}
+.main_menu ul li ul li:last-child{border-bottom: none}
+.clear{clear: both;}
+.main_menu ul li:last-child{border-right: none}
+.main_menu>ul>li:first-child{border-left: none;margin-left: 75px}
+.main_menu>ul>li>ul{display: none;position: absolute;background: #fff;top: 42px;left: 0;width: 275px}
+.main_menu>ul>li>ul>li{padding: 15px 15px}
+.main_menu ul li ul a{color: #000}
+.main_menu>ul>li:hover ul{display: block}
+.main_menu>ul>li>ul>li:hover a{color: #bf3b3b}
+.main_menu>ul>li:hover{background: #909090}
+.menu_dropit li a{float: right}
+.top_hotline li{list-style: none; font-size: 20px;color: #fff;font-weight: bold;text-transform: uppercase;margin-left: 75px}
+.menu_dropit{list-style: none}
+.menu_dropit li a{text-decoration: none;color: #fff;font-size: 18px;padding: 0 15px}
+.menu_dropit>li:hover a{color: #bf3b3b}
+.logo a{text-align: center;display: block}
+.search input{float: left;width: 18%; margin-left: 70; margin-top: -80px;height: 35px;background: url('search.png') no-repeat
+;background-size: 25px 20px;background-position: 210px;background-color: #fff;}
+.top_social .totozone{background-image: url('http://totoshop.vn/tp/T0057/img/logo_fz.jpg') ;background-repeat: no-repeat;background-size: 30px 30px}
+.top_social li{float:  right;display: inline-block;width: 30px;height: 30px;border-radius: 5px;margin-right: 10px;margin-top: -29px}
+.top_social .face{background-image: url('http://totoshop.vn/tp/T0057/img/facebook.png') ;background-repeat: no-repeat;background-size: 30px 30px}
+.top_social .zalo{background-image: url('http://totoshop.vn/tp/T0057/img/zalo.png') ;background-repeat: no-repeat;background-size: 30px 30px}
+.top_social .insta{background-image: url('http://totoshop.vn/tp/T0057/img/instagram.png') ;background-repeat: no-repeat;background-size: 30px 30px}
+.top_social{margin-right: 100px;margin-top: -25px}
+.main{width: 1349px ;height: 2185.78;background: #222}
+.footer{width: 1349px;height: 640px;background: red}
